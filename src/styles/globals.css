@@ -1,0 +1,25 @@
+p a {
+  color: #1565c0 !important;
+  cursor: pointer !important;
+}
+
+p a:hover {
+  text-decoration: underline !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.remove-start-margin {
+  margin-inline-start: 0 !important;
+}
+
+.hide-checkbox .chakra-checkbox__control {
+  display: none;
+}
+
+ol,
+ul {
+  padding: revert !important;
+}
